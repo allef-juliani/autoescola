@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.topHome{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    padding: 2%;
+    color: #ffd000;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd000;
+    font-size: 20px;
+    height: 7vh;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0% 10% 0% 10%;
+    font-weight: 600;
+}
+.cadastrados{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    border: 3px solid #ffd000;
+}
+#titulos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffd000;
+
+}
+#titulos span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.cadastrados p{
+    margin: 0;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    border-bottom: #ffd000 3px solid;
+    background-color: #ffec9a;
+}
+.cadastrados p span{
+    margin: 0% 5% 0% 5%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.excluir{
+    background-color: #ffd000;
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+}
